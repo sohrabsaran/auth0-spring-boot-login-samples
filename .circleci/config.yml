@@ -93,7 +93,7 @@ jobs:
             - test
   login:  
     machine:
-      image: circleci/openjdk:17
+image: << pipeline.parameters.machine_image >>
     steps:
       - run-sample:
           sample: "mvc-login"
