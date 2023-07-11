@@ -93,7 +93,7 @@ jobs:
             - test
   login:  
     machine:
-image: << pipeline.parameters.machine_image >>
+      image: << pipeline.parameters.machine_image >>
     steps:
       - run-sample:
           sample: "mvc-login"
