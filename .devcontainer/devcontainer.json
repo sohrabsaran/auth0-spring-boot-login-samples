@@ -1,0 +1,9 @@
+{
+    "name": "My Dev Container",
+    "image": "openjdk:20-jdk",
+    "workspaceFolder": "/workspaces",
+    "extensions": ["ms-vscode-java"],
+    "settings": {
+      "java.home": "${workspaceFolder}/jdk-20"
+    }
+  }
