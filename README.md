@@ -1,7 +1,7 @@
 # Spring Boot 2 Login Samples
 
 > **Note**
-> If you are using Spring Boot 3, check out the [spring-boot-3 branch](https://github.com/auth0-samples/auth0-spring-boot-login-samples/tree/spring-boot-3), which contains an updated version of this sample for Spring Boot 3.
+> If you are using Spring Boot 3, check out the [spring-boot-3 branch](https://github.com/sohrabsaran/auth0-spring-boot-login-samples/tree/spring-boot-3), which contains an updated version of this sample for Spring Boot 3.
 
 
 [![CircleCI](https://circleci.com/gh/auth0-samples/auth0-spring-boot-login-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-spring-boot-login-samples)
