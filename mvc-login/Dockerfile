@@ -1,9 +1,7 @@
-FROM gradle:6.5-jdk8
-
 WORKDIR /tmp
 ADD . /tmp
 
-RUN gradle build
+RUN ./gradlew build
 
-CMD ["gradle", "clean", "bootRun"]
+CMD ["./gradlew", "clean", "bootRun"]
 EXPOSE 3000

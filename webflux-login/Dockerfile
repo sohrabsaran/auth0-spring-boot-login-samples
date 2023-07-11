@@ -1,7 +1,7 @@
 WORKDIR /tmp
 ADD . /tmp
 
-RUN gradlew build
+RUN ./gradlew build
 
-CMD ["gradle", "clean", "bootRun"]
+CMD ["./gradlew", "clean", "bootRun"]
 EXPOSE 3000
