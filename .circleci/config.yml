@@ -80,7 +80,7 @@ commands:
 jobs:
   checkout:
     docker:
-      image: << pipeline.parameters.docker_image >>
+      - image: << pipeline.parameters.docker_image >>
     steps:
       - checkout
       - run:
@@ -93,7 +93,7 @@ jobs:
             - test
   login:  
     docker:
-      image: << pipeline.parameters.docker_image >>
+      - image: << pipeline.parameters.docker_image >>
     steps:
       - run-sample:
           sample: "mvc-login"
