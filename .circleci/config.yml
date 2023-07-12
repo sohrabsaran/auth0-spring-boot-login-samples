@@ -19,7 +19,7 @@ commands:
       - run:
           name: Assemble
           working_directory: <<parameters.sample>>
-          command: ./gradlew clean build
+          command: java --version ; ./gradlew clean build
       - save_cache:
           key: v1-dependencies{{ checksum  "<<parameters.sample>>/build.gradle" }}
           paths:
