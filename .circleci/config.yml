@@ -6,7 +6,7 @@ version: 2.1
 parameters:
   machine_image:
     type: string
-    default: cimg/openjdk:17-oracle #ubuntu-2004:202201-02
+    default: cimg/openjdk:17-jdk-slim #ubuntu-2004:202201-02
 commands:
   run-sample:
     description: "Build and run the sample"
