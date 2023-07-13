@@ -86,7 +86,7 @@ jobs:
       - checkout
       - run:
           name: Clone test script
-          command: git clone https://github.com/sohrabsaran/spa-quickstarts-tests test
+          command: echo "Before git clone command" ; git clone https://github.com/sohrabsaran/spa-quickstarts-tests test ; echo "After git clone command"
       - persist_to_workspace:
           root: ~/ 
           paths:
