@@ -61,6 +61,7 @@ commands:
     steps:
       - attach_workspace:
           at: ~/
+      - setup_remote_docker
       - run:
           name: Run tests
           command: |
